@@ -31,6 +31,7 @@ class SingletonStore:
 cs = ConfigStore.instance()
 
 domains = {
+    "qg_sim_128": dict(lon=[-64.0, 64.0], lat=[-64.0, 64.0]),
     "eNATL": dict(lon=[-100, 42], lat=[7, 69]),
     "ceNATL": dict(lon=[-61, -9], lat=[12, 64]),
     "NATL": dict(lon=[-77, 5], lat=[27, 64]),
