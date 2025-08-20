@@ -8,9 +8,9 @@ import kornia
 import pandas as pd
 import xrft
 import torch
-import pyinterp
-import pyinterp.fill
-import pyinterp.backends.xarray
+#import pyinterp
+#import pyinterp.fill
+#import pyinterp.backends.xarray
 import src.data
 import xarray as xr
 import matplotlib.pyplot as plt
